@@ -4,7 +4,7 @@ public class Java_Test {
 
     public static float calc(int a, int b, int c, int d) {                                                              // calculating
         float result;
-        result = a * (b + (c / d));
+        result = a * (b + (c *1.0f/ d));
         return result;
     }
 
@@ -39,7 +39,7 @@ public class Java_Test {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a, b, c , d, A1, A2, B1, year;
-        /*System.out.println("Input number a");                                                                         //Task 1;
+        System.out.println("Input number a");                                                                         //Task 1;
         a = input.nextInt();
         System.out.println("Input number b");
         b = input.nextInt();
@@ -47,7 +47,7 @@ public class Java_Test {
         c = input.nextInt();
         System.out.println("Input number d");
         d = input.nextInt();
-        System.out.println("the result of  a * (b + (c / d)) is = " + calc( a, b, c, d));*/                             //End of Task1;
+        System.out.println("the result of  a * (b + (c / d)) is = " + calc( a, b, c, d));                          //End of Task1;
 
        /* System.out.println("Input number A1");                                                                          //Task 2
         A1 = input.nextInt();
@@ -64,8 +64,8 @@ public class Java_Test {
         name = input.nextLine();
         System.out.println(" Hello, " + name + ". Nice to meet you! ");                                                 //End of task 4;
 */
-        System.out.println("input the year");                                                                           //Task 5;
+      /*  System.out.println("input the year");                                                                           //Task 5;
         year = input.nextInt();
-        checkYear(year);                                                                                                // end of Task 5;
+        checkYear(year);     */                                                                                          // end of Task 5;
     }
 }
