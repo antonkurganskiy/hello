@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="931fb9a9-e2b1-4a7c-93f9-b7a93ababc52" name="Default Changelist" comment="" />
+    <list default="true" id="931fb9a9-e2b1-4a7c-93f9-b7a93ababc52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Loops">
     <configuration name="Java_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Test" />
       <module name="Java_Test" />
@@ -47,8 +50,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Lesson2.Lesson2.Loops" />
+      <module name="Java_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.Lesson2.Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.Java_Test" />
       </list>
     </recent_temporary>
