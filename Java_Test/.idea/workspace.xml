@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="931fb9a9-e2b1-4a7c-93f9-b7a93ababc52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Test/Lesson2/Lesson2/Lesson2/Loops.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Test/Lesson2/Lesson2/Lesson2/Loops.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,5 +96,36 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Lesson2/Lesson2/Lesson2/Loops.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
