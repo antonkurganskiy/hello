@@ -41,7 +41,28 @@ public class Emploee {
         this.wage = (wage + 5000);
     }
 
-
-
-
+     static void print40Plus(Emploee[] emp) {
+        for (int i = 0; i < emp.length; i++) {
+            if (emp[i].getAge() > 40) {
+                emp[i].dataPrint();
+            }
+        }
+    }
+    static void raise45PlusWage(Emploee[] emp) {
+        for (int i = 0; i < emp.length; i++) {
+            if(emp[i].getAge() > 45){
+                emp[i].setWageRaise();
+            }
+        }
+    }
+    static void averageEmployee(Emploee[] emp){
+        int averageWage=0;
+        int averageAge=0;
+        for (int i = 0; i < emp.length; i++) {
+            averageAge += emp[i].getAge();
+            averageWage += emp[i].getWage();
+        }
+        System.out.println("Average age of employees is "+ averageAge / emp.length);
+        System.out.println("Average wage of employees " + averageWage/emp.length);
+    }
 }
