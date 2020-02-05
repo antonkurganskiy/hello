@@ -1,0 +1,5 @@
+Tumor–normal studies (cancer research)
+Tumor–normal studies determine the difference between tumor and nontumor genomes.
+Researchers can employ whole-genome sequencing
+(WGS) to monitor genomic changes that occur in a tumor, including the
+presence of markers for good and poor prognosis. 

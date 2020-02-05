@@ -1,0 +1,13 @@
+Save Time, Money, and Samples through Test Consolidation
+• Pan-cancer content aligned with key guidelines
+• DNA + RNA* assay targeting 523 genes for assessment of small variants, TMB, MSI, splice variants, and fusions
+• Identify relevant alterations while achieving highly accurate results
+• Achieve Highly Confident Results
+• Software filters artifacts for accurate variant calling
+• Enrichment chemistry inclusive of unique molecular indexes (UMIs) for high sensitivity in variant detection
+• Based on proven Illumina platform
+• Unlock Immuno-Oncology
+• Panel contains immuno-oncology biomarkers TMB and MSI
+• Tumor-only workflow for simplicity and efficiency
+• TMB calling performance similar to whole-exome sequencing (WES) panels
+• Large 1.94 Mb panel and sophisticated algorithm for accurate TMB score
