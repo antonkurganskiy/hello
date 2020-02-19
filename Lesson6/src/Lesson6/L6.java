@@ -3,6 +3,7 @@ package Lesson6;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -14,22 +15,12 @@ import java.util.Scanner;
 
 
 public class L6 {
-    public static void main(String[] Args){
-        try {
-            Scanner scanner = new Scanner(new FileInputStream("File1.txt"));
-            while (scanner.hasNext()){
-                try{
-                    FileOutputStream fos = new FileOutputStream("File2.txt",true);
+     public static void main(String[] Args){
 
-                } catch (FileNotFoundException e){
-                    e.printStackTrace();
-                }
-            }
-        }catch (FileNotFoundException e){
-            e.printStackTrace();
-        }
-
-
+         float delta;
+         long startTime = System.nanoTime();
+         System.out.println("Sample of stopwatch");
+         delta = System.nanoTime() - startTime;
+         System.out.printf("Delta %f\n", delta * 000001f);
     }
-
 }
