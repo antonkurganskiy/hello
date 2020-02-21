@@ -1,12 +1,2 @@
-Word
-Tumor–normal studies (cancer research)
-Tumor–normal studies determine the difference between tumor and nontumor genomes.
-Researchers can employ whole-genome sequencing
-(WGS) to monitor genomic changes that occur in a tumor, including the
-presence of markers for good and poor prognosis.  Pan-cancer content aligned with key guidelinesDNA + RNA
-and fusions
-Achieve Highly Confident Results
-Enrichment chemistry inclusive of unique molecular indexes (UMIs) for high sensitivity in variant detection
- Unlock Immuno-Oncology
- Tumor-only workflow for simplicity and efficiency
-Large 1.94 Mb panel and sophisticated algorithm for accurate TMB score
+1181988657587800
+0.22800530010855624

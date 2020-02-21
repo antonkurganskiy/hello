@@ -14,6 +14,7 @@ public class outputStream {
             //StringBuilder s = new StringBuilder("Hello world of Streams");
             String s = " Hello String again ";
             fos.write(s.getBytes());
+            fos.flush();
             fos.close();
 
         } catch (FileNotFoundException ex){

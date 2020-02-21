@@ -14,6 +14,7 @@ public class ScannerClassAsInputStream {
             while (scanner.hasNext()){
 
                 System.out.println(scanner.nextLine());
+
             }
         }catch (FileNotFoundException ex){
             ex.printStackTrace();

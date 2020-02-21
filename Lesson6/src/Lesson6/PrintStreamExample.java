@@ -7,6 +7,8 @@ public class PrintStreamExample {
         try{
         PrintStream ps = new PrintStream(new FileOutputStream("test.txt", true));
         ps.println("PrintStream example");
+        ps.flush();
+        ps.close();
         }catch (IOException ex){
             ex.printStackTrace();
       /*  }catch (FileNotFoundException ex){
