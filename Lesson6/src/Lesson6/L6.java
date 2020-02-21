@@ -1,9 +1,6 @@
 package Lesson6;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -16,11 +13,19 @@ import java.util.Scanner;
 
 public class L6 {
      public static void main(String[] Args){
+         try {
+             Scanner scanner = new Scanner(new FileInputStream("file2.txt"));                                    // We open the first file for reading;
+             PrintStream ps = new PrintStream(new FileOutputStream("file1.txt",true));                   // We open Stream to second file for writing;
+             while (scanner.hasNext()){                                                                                 // Working with first file until it has something;
+                 //System.out.println(scanner.nextLine());  // test line that file was opened;
+                 ps.println(scanner.nextLine());                                                                        // Writing to file this line;
+             }
+         }catch (FileNotFoundException ex){
+             ex.printStackTrace();
+         }catch (IOException ex){
+             ex.printStackTrace();
+         }
 
-         float delta;
-         long startTime = System.nanoTime();
-         System.out.println("Sample of stopwatch");
-         delta = System.nanoTime() - startTime;
-         System.out.printf("Delta %f\n", delta * 000001f);
+
     }
 }

@@ -13,6 +13,8 @@ public class inputStream {
             int b;
             while ((b = fis.read()) != -1){
                 System.out.print((char) b);
+
+
             }
 
 
